@@ -1,4 +1,5 @@
 ﻿import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, ListItem, ListItemAvatar, ListItemText, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 import { Car } from "../../app/models/car";
 
 interface Props {
@@ -36,8 +37,8 @@ export default function CarCard({ car }: Props) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small">Details</Button>
+                <Button component={Link} to={`/catalog/${car.id}`} size="small">Rent Car</Button>
             </CardActions>
         </Card>
     )
