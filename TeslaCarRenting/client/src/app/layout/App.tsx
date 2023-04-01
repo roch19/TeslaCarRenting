@@ -19,7 +19,7 @@ function App() {
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
-            position: "fixed",
+            position: 'static',
             width: '100vw',
             height: '100vh'
 

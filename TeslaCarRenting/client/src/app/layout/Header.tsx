@@ -30,7 +30,7 @@ const Links = [
 
 export default function Header() {
     return (
-        <AppBar position='static' sx={{ mb: 4 /*, backgroundColor: 'rgba(255,255,255, 0.2)'*/ }} >
+        <AppBar position='static' sx={{ mb: 4 , backgroundColor: 'rgba(255,200,100, 0.2)' }} >
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems:'center' }}>
 
                 <Typography variant='h4' component={NavLink} to='/'

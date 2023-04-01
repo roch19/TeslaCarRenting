@@ -9,6 +9,7 @@
         public Location ReturnPlace { get; set; }
         public Location RentPlace { get; set; }
         public Car Car { get; set; }
+        public decimal TotalCost { get; set; }
 
     }
 }

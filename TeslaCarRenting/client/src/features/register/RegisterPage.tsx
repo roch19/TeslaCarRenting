@@ -1,9 +1,9 @@
 ﻿import { Typography } from "@mui/material";
 
-export default function AboutPage() {
+export default function RegisterPage() {
     return (
         <Typography variant='h1'>
-            About PAge
+            This is a Register page
         </Typography>
     )
 }

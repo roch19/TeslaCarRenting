@@ -8,6 +8,7 @@
         public int NumberOfSits { get; set; }
         public string Picture { get; set; }
         public string Color { get; set; }
+        public Price Price { get; set; }
 
 
     }
