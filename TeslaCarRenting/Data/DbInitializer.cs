@@ -8,6 +8,16 @@ namespace TeslaCarRenting.Data
     {
         public static void Initialize(RentContext context)
         {
+
+            //var user = new List<Customer>
+            //{  new Customer
+            //{
+            //    Id = 1,
+            //    Email = "user@site.com",
+            //    Name= ""
+
+            //}
+            //}
             if (context.Cars.Any()) return;
 
             var cars = new List<Car>

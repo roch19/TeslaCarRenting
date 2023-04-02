@@ -8,6 +8,7 @@ import ContactPage from "../../features/contact/ContactPage";
 import HomePage from "../../features/home/HomePage";
 import LoginPage from "../../features/login/LoginPage";
 import RegisterPage from "../../features/register/RegisterPage";
+import ReservationsPage from "../../features/reservations/ReservationsPage";
 
 import App from "../layout/App";
 
@@ -27,7 +28,8 @@ export const router = createBrowserRouter([
             { path: 'about', element: <AboutPage /> },
             { path: 'contact', element: <ContactPage /> },
             { path: 'login', element: <LoginPage /> },
-            { path: 'register', element: <RegisterPage /> }
+            { path: 'register', element: <RegisterPage /> },
+            { path: 'reservations', element: <ReservationsPage/> }
 
 
 

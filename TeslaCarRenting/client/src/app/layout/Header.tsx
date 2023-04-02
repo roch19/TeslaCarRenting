@@ -44,16 +44,19 @@ export default function Header() {
 }} >
                    <DriveEtaIcon fontSize='large' />
                     RentME!
-            </Typography>
+                </Typography>
 
             
                 <Box display='flex' alignItems='center' >
 
-                    <IconButton size='large' edge='start' color='inherit' sx={{ mr: 2 }}>
-                        <Badge badgeContent='4' color="secondary">
+                    <IconButton component={NavLink} to='reservations' size='large' edge='start' color='inherit' sx={{ mr: 2 }}>
+                        <Badge badgeContent='' color="success">
                             <NoCrashIcon />
                         </Badge>
                     </IconButton>
+
+
+
                     <List sx={{ display: 'flex' }}>
                         {Links.map(({ title, path }) => (
                             <ListItem

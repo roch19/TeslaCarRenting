@@ -1,4 +1,4 @@
-﻿import { Divider, Grid, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material";
+﻿import { Button, Divider, Grid, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material";
 import axios from "axios";
 import { error } from "console";
 import { useEffect, useState } from "react";
@@ -46,6 +46,21 @@ export default function CarDetails() {
                             <TableRow>
                                 <TableCell>Color</TableCell>
                                 <TableCell>{car.color}</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>Location</TableCell>
+                                <TableCell>location</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>Price</TableCell>
+                                <TableCell>$</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell></TableCell>
+                                <TableCell>
+                                    <Button size="large">Rent right now</Button>
+                                </TableCell>
+                                
                             </TableRow>
                         </TableBody>
                     </Table>
